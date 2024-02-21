@@ -8,6 +8,7 @@ public class ListWithLambda {
 		
 		List<Integer> list = List.of(234,25,23,63,23,74,26,6);
 		
+		
 		list.forEach(
 				
 				(n) -> System.out.println(n)
